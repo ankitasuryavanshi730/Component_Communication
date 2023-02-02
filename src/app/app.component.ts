@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Component-Communication';
+
+  name = "Ankita";
+
+
+  ankita:any = "";
+
+
+  putmsg = " ";
+
+  receivedmsg(msg:string){
+
+  this.putmsg = msg;
+
+  }
 }
+
+
+
+
+
